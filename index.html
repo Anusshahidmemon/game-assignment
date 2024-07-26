@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    body{
+        background-image: linear-gradient(to right, red , yellow);
+        display: flex;
+      flex-direction: column;
+      
+      height: 100vh;
+     
+    }
+    h1{
+        color: #fff;
+        text-align: center;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 400px;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .action{
+        padding: 40px 60px;
+        background-image: url("image/download.png");
+        background-size: 60px;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    .actiondiv{
+        height: fit-content;
+    }
+    .card{
+        display:flex;
+        width: 400px;
+        height: 200px;
+        background-color: white;
+        gap:20px;
+        align-items: center;
+        border-radius: 5px;
+    }
+    img{
+        width: 70%;
+        height: 100%;
+    }
+    .left,.right{
+        width: 50%;
+        font-size: 50px;
+        height: 150px;
+        text-align: center;
+    }
+</style>
+
+</head>
+<body id="body">
+   <h1>CHOOSE ANY GIFT YOU WANT</h1>
+   <div class="main">
+<div class="actiondiv"><div class="action"></div></div>
+<div class="actiondiv"><div class="action"></div></div>
+<div class="actiondiv"><div class="action"></div></div>
+<div class="actiondiv"><div class="action"></div></div>
+<div class="actiondiv"><div class="action"></div></div>
+<div class="actiondiv"><div class="action"></div></div>
+<div class="actiondiv"><div class="action"></div></div>
+<div class="actiondiv"><div class="action"></div></div>
+<div class="actiondiv"><div class="action"></div></div>
+
+</div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
